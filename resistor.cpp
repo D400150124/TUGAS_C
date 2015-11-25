@@ -554,7 +554,7 @@ void hitung_6gelang()
             }
         }
     }
-    N=((((G1*1000)+(G2*100))+(G3*10))+G4);
+    N=((((G1*1000)+(G2*100))+(G3*10))+G4)*G5;
     printf("\nNilai resistor R = %d ohm", N);
     printf("\nNilai tolernsi = %d%c", G6, PERSEN);
 }
